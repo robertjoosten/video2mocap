@@ -1,5 +1,5 @@
-- HMR
-    - Link: https://github.com/akanazawa/hmr
+- HMR ( custom fork )
+    - Original Link: https://github.com/akanazawa/hmr
 
 - OpenPose
     - Version v1.3.0.
