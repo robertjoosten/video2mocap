@@ -18,11 +18,10 @@ echo ----- Deleting Temporary Zip File %ZIP_NAME% -----
 del "%ZIP_NAME%"
 
 echo ----- Installing requirements -----
-python3.exe -m pip install -r requirements.txt
+python3.exe -m pip install -r hmr/requirements.txt
 
 echo ----- Unzipping HMR Models NPY -----
-cd hmr/models
-%ZIP_EXE% x neutral_smpl_with_cocoplus_reg.zip
+%ZIP_EXE% x hmr/models/neutral_smpl_with_cocoplus_reg.zip -ohmr/models
 echo:
 
 echo ----- HMR ( + Models ) Downloaded and Unzipped -----
