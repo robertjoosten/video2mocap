@@ -51,6 +51,14 @@ Available Arguments:
 The exe files can be overwritten in case the python interpreters are not
 accessible through the PATH variable and a relative path cannot be provided.
 
+Limitations
+===========
+
+*   No camera tracking ( static camera advised )
+*   No partial body ( full body in view each frame advised )
+*   Limited depth adjustment
+
+
 Logs
 ====
 As loads of things are running in process it is quite simple for something to
