@@ -1,5 +1,4 @@
 """
-# video2mocap
 Convert a video file to animated humanIK skeletons for maya.
 
 .. figure:: https://github.com/robertjoosten/video2mocap/raw/master/data/thumbnail.png
@@ -7,7 +6,8 @@ Convert a video file to animated humanIK skeletons for maya.
    
 `Link to Video <https://vimeo.com/277548081>`_
 
-## Installation
+Installation
+============
 Download/Extract the repository onto your local drive.
 
 In order for this tool to work a couple of 3rd party application will have to
@@ -27,9 +27,10 @@ necessary applications.
     - Download models for HMR
     - Pip install requirements.txt
 
-## Usage
+Usage
+=====
 From the command line:
-
+::
     cd video2mocap/
     python video2mocap.py --video_path <VIDEO> --output_dir <OUTPUT>
 
@@ -50,19 +51,21 @@ Available Arguments:
 The exe files can be overwritten in case the python interpreters are not
 accessible through the PATH variable and a relative path cannot be provided.
 
-## Logs
+Logs
+====
 As loads of things are running in process it is quite simple for something to
 go wrong. For this reason a log file is implemented that gets saved into the
 output_dir. If the desired result is unexpected these logs can be investigated
 to find out what and where something went wrong.
 
 Keypoint matching example:
-
+::
     2018/07/05/ 12:31:40 | INFO | ---- Match Keypoints Over Multiple Frames ----
     2018/07/05/ 12:31:40 | DEBUG | New Person:            Frame 276
     2018/07/05/ 12:31:40 | DEBUG | Omit Person:           Presence Percentage 0.01
 
-## Versions
+Versions
+========
 
 *   HMR ( custom fork )
     - Original Link: https://github.com/akanazawa/hmr
