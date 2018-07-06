@@ -1,0 +1,8 @@
+.idea
+3rdparty/hmr
+3rdparty/ffmpeg
+3rdparty/openpose
+tests
+*.pyc
+
+

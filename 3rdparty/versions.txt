@@ -1,0 +1,18 @@
+- HMR
+    - Link: https://github.com/akanazawa/hmr
+
+- OpenPose
+    - Version v1.3.0.
+    - Link: https://github.com/CMU-Perceptual-Computing-Lab/openpose/releases
+
+- FFmpeg
+    - Version 20180630-9f0077c.
+    - Link: https://ffmpeg.zeranoe.com/builds/
+
+- 7Zip
+    - Version 18.05.
+    - Link: https://www.7-zip.org/download.html
+
+- Wget:
+    - Version wget-1.19.1-win64.
+    - Link: https://eternallybored.org/misc/wget/
