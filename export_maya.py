@@ -281,6 +281,9 @@ def process(path, output_dir):
         # query character height
         animate(character_groups, character_skeleton, frames)
 
+        # fix euler rotations
+        anim.applyEulerFilter(character_skeleton.values())
+
         # save file
         output_path = os.path.join(
             output_dir,
@@ -304,7 +307,7 @@ if __name__ == '__main__':
 
     from maya import cmds, mel
     from maya.api import OpenMaya
-    from utils import io, hik, mocap, logging, skeleton
+    from utils import io, hik, anim, mocap, logging, skeleton
     from utils.path import *
 
     # convert data
