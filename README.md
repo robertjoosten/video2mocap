@@ -71,6 +71,7 @@ Keypoint matching example:
 ## Versions
 
 *   HMR ( custom fork )
+    - Link: https://github.com/robertjoosten/hmr
     - Original Link: https://github.com/akanazawa/hmr
 
 *   OpenPose
