@@ -5,7 +5,9 @@ Convert a video file to animated humanIK skeletons for maya.
 <a href="https://vimeo.com/277548081" target="_blank"><p align="center">Click for video</p></a>
 
 ## Installation
-Download/Extract the repository onto your local drive.
+Clone repository
+
+    git clone https://github.com/robertjoosten/video2mocap.git
 
 In order for this tool to work a couple of 3rd party application will have to
 be installed. To make this an easy process bat files are located in the
