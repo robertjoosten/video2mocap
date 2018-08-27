@@ -304,9 +304,15 @@ if __name__ == '__main__':
     # initialize maya standalone
     import maya.standalone
     maya.standalone.initialize()
+    
+    # add to path so it the script imports the right utils
+    import os
+    import sys
+    sys.path.insert(0, os.path.dirname(__file__))
 
     from maya import cmds, mel
     from maya.api import OpenMaya
+    
     from utils import io, hik, anim, mocap, logging, skeleton
     from utils.path import *
 
