@@ -305,7 +305,7 @@ if __name__ == '__main__':
     import maya.standalone
     maya.standalone.initialize()
     
-    # add to path so it the script imports the right utils
+    # add to path so the script imports the right utils
     import os
     import sys
     sys.path.insert(0, os.path.dirname(__file__))
