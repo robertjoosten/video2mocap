@@ -1,5 +1,13 @@
-# video2mocap
+# video2mocap ( NOT SUPPORTED )
+
 Convert a video file to animated humanIK skeletons for maya.
+
+**This project never had to intention of being used in a professional capacity 
+nor were the results ever anything that can be used in production. Extracting 
+skeletal animation from video has moved in a lot since the 4 years this project
+was created and are a better source for learning.**
+
+*Updated: 28/12/2022*
 
 <p align="center"><img src="https://github.com/robertjoosten/video2mocap/raw/master/data/thumbnail.png"></p>
 <a href="https://vimeo.com/277548081" target="_blank"><p align="center">Click for video</p></a>
